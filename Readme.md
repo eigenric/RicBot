@@ -15,3 +15,10 @@ Funcionalidades
 6. Interfaz de usuario comandos por escrito
 7. Evaluacion de expresiones python (Por ello matemáticas)
 8. Función Ipan
+
+Configuración
+-------------
+
+- Quitar el `-demo` de todos los ficheros que lo contengan
+- Modificar `config-demo.py`, y añadir los TOKENs correspondientes
+- Modificar el archivo `respuestas` añadiendo un estado por línea
