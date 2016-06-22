@@ -2,20 +2,16 @@
 #encoding:utf-8
 
 from emoji import Emoji
-from config import TOKEN
+from config import TOKEN, TOKEN_DEV, ADMIN
 import telebot
 import random
 
-cache = open('respuestas', 'r')
-respuestas = cache.readlines()
-
-bot = telebot.TeleBot(TOKEN)
-
+bot = telebot.TeleBot(TOKEN_DEV)
 
 @bot.message_handler(commands=['info'])
 def send_info(message):
-	info = '''Saludos, este es el Bot AdaSaludosBot
-		  los comandos disponibles son:
+	info = '''Saludos, me llamo RicBOT 2.1
+		  Los comandos disponibles son:
 			/info : informa de los comandos
 			/start : obvio para comenzar
 			/image : le envia un precioso gif
@@ -78,7 +74,6 @@ def recibir_sugerencias(message):
 	sugerencia = message.text[13:]
 	bot.send_message(ADMIN,sugerencia)
 	bot.send_message(message.chat.id, "Gracias, por ayudar :D")
-
 
 @bot.message_handler(commands=['ipan')
 def ailo(message):
