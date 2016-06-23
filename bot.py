@@ -75,7 +75,7 @@ def recibir_sugerencias(message):
 	bot.send_message(ADMIN,sugerencia)
 	bot.send_message(message.chat.id, "Gracias, por ayudar :D")
 
-@bot.message_handler(commands=['ipan')
+@bot.message_handler(commands=['ipan'])
 def ailo(message):
 	bot.send_message(message.chat.id, "AILO")
 
