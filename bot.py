@@ -33,7 +33,7 @@ def send_start(message):
 
 @bot.message_handler(commands=['image'])
 def send_image(message):
-	image = open('media/giphy ('+str(random.randint(0, 3))+').gif', 'rb')
+	image = open('media/'+str(random.randint(1, 3))+'.gif')
 	bot.send_document(message.chat.id, image)
 	image.close()
 
