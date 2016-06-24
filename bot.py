@@ -28,7 +28,6 @@ def send_info(message):
 @bot.message_handler(commands=['start'])
 def send_start(message):
 	send_info(message)
-	print message.chat.id
 	bot.send_message(message.chat.id, "Saludos")
 
 @bot.message_handler(commands=['image'])
@@ -63,7 +62,7 @@ def send_math(message):
 @bot.message_handler(commands=['registrar'])
 def registrar(message):
 	estado = message.text[11:]
-	fichero = open('respuestas', 'a')
+	fichero = open('datos/respuestas', 'a')
 	fichero.write(estado.encode('utf8')+'\n')
 	fichero.close()
 	bot.send_message(message.chat.id, "Estado registrado, Gracias")
