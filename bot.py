@@ -1,10 +1,10 @@
 #author: Ricardo Ruiz
 #encoding:utf-8
 
-from emoji import Emoji
 from config import TOKEN, TOKEN_DEV, ADMIN
 import telebot
 import random
+import emoji
 
 bot = telebot.TeleBot(TOKEN_DEV)
 
@@ -71,8 +71,9 @@ def registrar(message):
 @bot.message_handler(commands=['sugerencias'])
 def recibir_sugerencias(message):
 	sugerencia = message.text[13:]
-	bot.send_message(ADMIN,sugerencia)
-	bot.send_message(message.chat.id, "Gracias, por ayudar :D")
+	bot.send_message(ADMIN, sugerencia)
+	mensaje = emoji.emojize('Gracias por ayudar :white_smiling_face:')
+	bot.send_message(message.chat.id, mensaje)
 
 @bot.message_handler(commands=['ipan'])
 def ailo(message):
