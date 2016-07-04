@@ -3,3 +3,4 @@ venv
 config.py
 datos/sugerencias
 datos/respuestas
+*.save
