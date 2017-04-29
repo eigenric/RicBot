@@ -4,6 +4,6 @@ datos/sugerencias
 datos/respuestas
 *.pyc
 *.save
-
+*.swp
 *.sublime-workspace
 *.sublime-project
