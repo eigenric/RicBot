@@ -1,0 +1,28 @@
+Fix:
+ ☐ Eval peligroso !
+ ✔ Sugerencias vacías pausa el programa @done (17-04-29 15:10)
+
+Update:
+    ☐ No repeticiones -> Ciclo
+        ✔ send_estado (Gesto de estados) @done (17-04-29 15:11)
+        ✔ send_audio: '' @done (17-04-29 15:11)
+        ☐ send_photo: ''
+        ☐ send_gif: ''''
+Math:
+    ✔ + - * / ^ (Division decimal) @done (17-04-29 15:12)
+    ✔ Logaritmos (Base 10 y naturales) @done (17-04-29 15:12)
+    ✔ Funciones sen y cos @done (17-04-29 15:12)
+    ✔ Otras funciones matemáticas (sqrt, abs, max, min, etc.) @done (17-04-29 15:12)
+    ☐ Renderizar fórmulas matemáticas
+
+Features:
+    ✔ Mejora de la experiencia de usuario: @done (17-04-29 15:13)
+        ✔ Uso de emoticonos @done (17-04-29 15:13)
+        ✔ Uso de Markdown @done (17-04-29 15:13)
+        ✔ Escribiendo... Subiendo Foto... (Decoradores @typing @uploading) @done (17-04-29 15:13)
+    ✔ Separación de datos a JSON @done (17-04-29 15:13)
+    ✔ Gestor de ficheros: Uso de fileid (Sin permanencia) @done (17-04-29 15:13)
+    ✔ Sugerencias no vacías (Force reply) @done (17-04-29 15:13)
+    ✔ Respuesta a estado no identificado @done (17-04-29 15:13)
+    ✔ /ipan devuelve imagen de ipan @done (17-04-29 15:13)
+    ☐ Interfaz con botones

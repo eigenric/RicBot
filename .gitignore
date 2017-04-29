@@ -1,6 +1,9 @@
-*.pyc
 venv
-config.py
+bot/config.py
 datos/sugerencias
 datos/respuestas
+*.pyc
 *.save
+
+*.sublime-workspace
+*.sublime-project
