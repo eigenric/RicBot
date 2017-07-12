@@ -1,0 +1,47 @@
+{
+	
+	"start": [
+		"Saludos *{}*:exclamation:, me llamo *RicBot*:tm: :grin: y estoy a su servicio :smile:",
+		"*Disfruta* de mí (pero claro, _con precaución_ :smirk:)",
+		"Si quieres saber *qué puedo hacer* escribe */info* :smile:"],
+
+	"info": [
+		"Por ahora funciono con los siguientes comandos:",
+		"*/info* : Para contarte **este** rollo :information_source:",
+		"*/img* : Si quieres que te envíe algun gif o imagen :camera:",
+		"*/audio*:  Algunas canciones de ducha :notes:",
+		"*/estado* : Te cuento algo random, (pero sin ser cansino :stuck_out_tongue_winking_eye:)",
+		"*/registrar* : Si quieres que memorice algo random y lo cuente por ahí :satisfied:",
+		"*/mates* 666 - 36 : Me gusta resolver cosas (Pregunta */cosas* para saber que resuelvo)",
+		"*/ipan* : Ni puta idea de qué hace esto",
+		"*/sugerencias* _¡Friega los platos!_: No soy perfecto :sweat_smile:, dime qué quieres que mejore!",
+		"_Por cierto_, *Te quiero {}* :heart:"
+	],
+
+	"math": [
+		"Operación no permitida :confused:",
+		"Consulte */cosas* para saber que hago :smile:"
+	],
+
+	"math_error": "La operacion {operacion} ha producido el siguiente error: {error} al usuario {usuario}",
+
+	"estado_registrado": "Estado registrado, gracias :white_heavy_check_mark:",
+
+	"estado_vacios" : ":expressionless: No registro *estados vacíos*, sería muy aburrido no tener nada que contar a nadie, _¿no crees?_",
+
+	"cosas": [
+		"Operaciones permitidas:",
+		"<b>Aritmética Básica</b>: + - / * ^",
+		"<b>Funciones chachis</b>: log(), ln(), sin(), cos()",
+		"<b>Constantes básicas</b>: pi, e",
+		"<i>Uso de radianes</i>:exclamation:"
+	],
+
+	"comando_no_soportado": [
+		"*{}*:question: :rage:",
+		"Eres *subnormal* o es que no has leido */info*?",
+		"...",
+		"...",
+		":fire:"
+	]
+}

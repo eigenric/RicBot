@@ -2,7 +2,7 @@ RicBot
 ======
 
 Primer intento de adaptación a la programacion de bots de Telegram. Por
-ahora funciona bajo el nickname @AdaSaludosBot
+ahora funciona bajo el nickname @ShitTestBot
 
 Funcionalidades
 ---------------
